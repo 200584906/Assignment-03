@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: auto;
+}
+
+header {
+    background: rgba(0,0,0,0.4) ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+header h1 {
+    margin: 0;
+}
+
+.h1{
+     width: 1250px;
+     margin: 60px 0px 50px 110px; 
+     border-radius: 10px;
+     color: white;
+     background: rgba(0,0,0,0.4) ;
+
+}
+
+h2{
+    width: 540px;
+    margin: 50px 0px 0px 500px;
+    border-radius: 10px;
+    font-size: xx-large;
+    color: white;
+    background: rgba(0,0,0,0.4) ;
+
+}
+
+
+.calculator {
+    width: 257px;
+    margin: 40px auto 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    /* background-color: #fff; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: rgba(0,0,0,0.5) ;
+}
+
+.calculator input[type="text"] {
+    width: calc(100% - 30px);
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    /* background-color: rgb(107, 102, 102); */
+    background: rgba(0,0,0,0.8) ;
+    color: white;
+}
+
+.calculator .btn {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.calculator .btn:hover {
+    background-color: #999;
+}
+
+footer {
+    background: rgba(0,0,0,0.4) ;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 10px 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: large;
+}
